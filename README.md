@@ -1,6 +1,6 @@
-# Groot
+# 
 Detects diseases on a plant leaf.
-# Welcome to the Groot wiki!
+# Welcome to the !
 
 This repository includes the project of a leaf disease detection system named **"Groot"**
 
