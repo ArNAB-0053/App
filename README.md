@@ -1,6 +1,6 @@
-# 
+# Applant
 Detects diseases on a plant leaf.
-# Welcome to the !
+# Welcome to the Applant wiki!
 
 This repository includes the project of a leaf disease detection system named **"Groot"**
 
