@@ -1,8 +1,8 @@
-# LeafArmor
+# Groot
 Detects diseases on a plant leaf.
-# Welcome to the LeafArmor wiki!
+# Welcome to the Groot wiki!
 
-This repository includes the project of a leaf disease detection system named **"LeafArmor"**
+This repository includes the project of a leaf disease detection system named **"Groot"**
 
 ## Introduction-
 
@@ -14,7 +14,7 @@ If you just focus on the needs of human survival, there are basically four main 
 
 Today we are going to solve a silly problem yet a big solution. Its the most underrated thing that we humans just ignore. We just ignore the fact of its existence and a huge impact is faced by us every year. Yet this problem has been under existence before every sapiens or homo sapiens existence!!
 
-If you can't guess it by now, then let me take you to the journey of the most silly problem with a "LeafArmor" Solution!!!
+If you can't guess it by now, then let me take you to the journey of the most silly problem with a "Groot" Solution!!!
 
 
 ## **Problem Statement-**
@@ -91,14 +91,14 @@ Our main goal is to make the model more accurate but training in such a way that
 
 In the above graphs we can se those hazards where there are chances of high data losses and miss predictions.So these are the minor drawbacks that we have to resolve to make our model work smoothly.
 
-# **A cute little LeafArmor appeared-**
+# **A cute little Groot appeared-**
 
 Enough talking about the diseases and stats of our machine learning model. Now let me take you through the journey of our littel android applications interface. The interface is clean and simple with a root logo. For now our application have the main page on which our Model would be working. 
 
-<!-- ![image](https://user-images.githubusercontent.com/65272042/230707096-83c1bc92-286d-4613-82c8-32d538f9e801.png) -->
+![image](https://user-images.githubusercontent.com/65272042/230707096-83c1bc92-286d-4613-82c8-32d538f9e801.png)
 This page is very simple and just have two backend operations to take a picture through mobile phones camera or the gallery. When the input is taken then that image is forwarded to our pre trained model and the model indicates which leaf it is and whether the leaf is healthy or diseased and if it is diseased then what kind of disease it have.  
 
-# **LeafArmor(0.1.0)**
+# **Groot(0.1.0)**
 
 In the testing face we faced many problems regarding the accuracy and the predictions. So the approach of our machine learning model got divided into three parts-
 * Creation of model and training the model
@@ -126,20 +126,20 @@ Now it was the time for predicition and we load the model in a different noteboo
 ![bcw](https://user-images.githubusercontent.com/65272042/230757316-efbe5fde-d408-4bed-bf42-cc253bfa736f.jpg)
 
 After all the prediction, the accuracy was-
-<!-- ![Screenshot 2023-04-09 113347](https://user-images.githubusercontent.com/65272042/230757307-49e3f011-2a02-4ed6-9ee2-9e95958ad79d.jpg) -->
+![Screenshot 2023-04-09 113347](https://user-images.githubusercontent.com/65272042/230757307-49e3f011-2a02-4ed6-9ee2-9e95958ad79d.jpg)
 
 Thus the accuracy was increased from the earlier version and now it was the time to use it as a feature in the application.
 
 Then we Coverted this file into a tflite extension for the use in android.
-<!-- ![Screenshot 2023-04-09 114447](https://user-images.githubusercontent.com/65272042/230757705-b90b9909-14b5-4df7-bcff-8944e5e6531b.jpg) -->
+![Screenshot 2023-04-09 114447](https://user-images.githubusercontent.com/65272042/230757705-b90b9909-14b5-4df7-bcff-8944e5e6531b.jpg)
 
-Introducing the New LeafArmor-
+Introducing the New Groot-
 
-<!-- ![image](https://user-images.githubusercontent.com/65272042/230757413-751393f5-7342-473f-aaab-1b0fa942d9b0.png) -->
+![image](https://user-images.githubusercontent.com/65272042/230757413-751393f5-7342-473f-aaab-1b0fa942d9b0.png)
 
-<!-- ![image](https://user-images.githubusercontent.com/65272042/230757452-4f893830-9806-4ae5-84d2-2e94c704a1c6.png) -->
+![image](https://user-images.githubusercontent.com/65272042/230757452-4f893830-9806-4ae5-84d2-2e94c704a1c6.png)
 
-<!-- ![image](https://user-images.githubusercontent.com/65272042/230757488-ae029cbb-597e-4a81-9b55-53cb41ea933b.png) -->
+![image](https://user-images.githubusercontent.com/65272042/230757488-ae029cbb-597e-4a81-9b55-53cb41ea933b.png)
 
 ## **Future Instances-**
 * In future we will try to make a page for the application where the solution related to the specified disease will be given 
@@ -151,4 +151,4 @@ Introducing the New LeafArmor-
 So the ideas that we proposed has came to an end, but more things have to be done in future. So that our future generations can learn, care and be precautious about everything that is present in future.
 Atlast now we know what hazards silly problems can create if we neglected it.
 
-*If we decide to save our nature first, we can create our own Utopia.*
+*If we decide to save our nature first, we can create our own Utopia*
