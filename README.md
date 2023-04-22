@@ -77,7 +77,7 @@ Deep learning has 4 basic stages to design a model-
 
 The stage on which we are now is the third stage when the model is trained and now just we have to wait and watch for the code to run and evaluate itself and give its accuracy percentage.
 
-![image](https://user-images.githubusercontent.com/65272042/230706068-8925c5c0-f906-45bb-b290-56b50202b7b0.png)
+<!-- ![image](https://user-images.githubusercontent.com/65272042/230706068-8925c5c0-f906-45bb-b290-56b50202b7b0.png) -->
 
 The above graph represent the evaluation between the accuracy and the val_accuracy. From which we will get the exact percentage of how much our model is capable to make predictions. Here we can see that the lines are again seem to meet together at some point. Thus, we can conclude that our model is trained and much more accurate.
  
@@ -86,8 +86,8 @@ The above graph represent the evaluation between the accuracy and the val_accura
 The basic drawback in our model that we can see is by again looking back at the graphical data. In that data we are able to see that the lines are crossing each other which can give a miscellaneous results sometime and can alter through the training model in making wrong predictions.
 Our main goal is to make the model more accurate but training in such a way that no wrong predictions are made.
 
-![faultloss](https://user-images.githubusercontent.com/65272042/230706546-ce1014b4-1482-4ca5-9f66-9284e352ec55.jpg)
-![faultacc](https://user-images.githubusercontent.com/65272042/230706670-bc986aaf-dcac-4c1a-9e1a-00794c139675.jpg)
+<!-- ![faultloss](https://user-images.githubusercontent.com/65272042/230706546-ce1014b4-1482-4ca5-9f66-9284e352ec55.jpg) -->
+<!-- ![faultacc](https://user-images.githubusercontent.com/65272042/230706670-bc986aaf-dcac-4c1a-9e1a-00794c139675.jpg) -->
 
 In the above graphs we can se those hazards where there are chances of high data losses and miss predictions.So these are the minor drawbacks that we have to resolve to make our model work smoothly.
 
@@ -95,7 +95,7 @@ In the above graphs we can se those hazards where there are chances of high data
 
 Enough talking about the diseases and stats of our machine learning model. Now let me take you through the journey of our littel android applications interface. The interface is clean and simple with a root logo. For now our application have the main page on which our Model would be working. 
 
-![image](https://user-images.githubusercontent.com/65272042/230707096-83c1bc92-286d-4613-82c8-32d538f9e801.png)
+<!-- ![image](https://user-images.githubusercontent.com/65272042/230707096-83c1bc92-286d-4613-82c8-32d538f9e801.png) -->
 This page is very simple and just have two backend operations to take a picture through mobile phones camera or the gallery. When the input is taken then that image is forwarded to our pre trained model and the model indicates which leaf it is and whether the leaf is healthy or diseased and if it is diseased then what kind of disease it have.  
 
 # **LeafArmor(0.1.0)**
@@ -113,11 +113,11 @@ We used 5 layers namely-
 * Flatten
 * Dense layer
 
-![image](https://user-images.githubusercontent.com/65272042/230756435-ff94206b-706c-4a8d-8917-fcdf8e0703f8.png)
+<!-- ![image](https://user-images.githubusercontent.com/65272042/230756435-ff94206b-706c-4a8d-8917-fcdf8e0703f8.png) -->
 
 The code for architecture in our program looked like this-
 
-![Screenshot 2023-04-09 111237](https://user-images.githubusercontent.com/65272042/230756528-2fbdd8f6-a7fc-41b1-b836-4046d4008bb4.jpg)
+<!-- ![Screenshot 2023-04-09 111237](https://user-images.githubusercontent.com/65272042/230756528-2fbdd8f6-a7fc-41b1-b836-4046d4008bb4.jpg) -->
 
 Then we trained the model and saved it.
 
