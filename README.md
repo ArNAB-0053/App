@@ -1,8 +1,8 @@
-# Applant
+# LeafArmor
 Detects diseases on a plant leaf.
-# Welcome to the Applant wiki!
+# Welcome to the LeafArmor wiki!
 
-This repository includes the project of a leaf disease detection system named **"Applant"**
+This repository includes the project of a leaf disease detection system named **"LeafArmor"**
 
 ## Introduction-
 
@@ -14,7 +14,7 @@ If you just focus on the needs of human survival, there are basically four main 
 
 Today we are going to solve a silly problem yet a big solution. Its the most underrated thing that we humans just ignore. We just ignore the fact of its existence and a huge impact is faced by us every year. Yet this problem has been under existence before every sapiens or homo sapiens existence!!
 
-If you can't guess it by now, then let me take you to the journey of the most silly problem with a "Applant" Solution!!!
+If you can't guess it by now, then let me take you to the journey of the most silly problem with a "LeafArmor" Solution!!!
 
 
 ## **Problem Statement-**
@@ -66,7 +66,7 @@ These patterns have been the main reason to develop a model that can preprocess 
 
 # **The data we are working on-**
 
-<!-- ![image](https://user-images.githubusercontent.com/65272042/230705790-5c9272a2-a60d-4593-b67e-88ddb71723fc.png) -->
+![image](https://user-images.githubusercontent.com/65272042/230705790-5c9272a2-a60d-4593-b67e-88ddb71723fc.png)
 The above graphical evaluation of data is of Loss vs val_loss. As we can see that to lines or functions tends to meet each other at some points. Just the thing that we have to remember is the more closer those two lines are the more accurate our predictions will be.
 
 Deep learning has 4 basic stages to design a model-
@@ -77,7 +77,7 @@ Deep learning has 4 basic stages to design a model-
 
 The stage on which we are now is the third stage when the model is trained and now just we have to wait and watch for the code to run and evaluate itself and give its accuracy percentage.
 
-<!-- ![image](https://user-images.githubusercontent.com/65272042/230706068-8925c5c0-f906-45bb-b290-56b50202b7b0.png) -->
+![image](https://user-images.githubusercontent.com/65272042/230706068-8925c5c0-f906-45bb-b290-56b50202b7b0.png)
 
 The above graph represent the evaluation between the accuracy and the val_accuracy. From which we will get the exact percentage of how much our model is capable to make predictions. Here we can see that the lines are again seem to meet together at some point. Thus, we can conclude that our model is trained and much more accurate.
  
@@ -86,19 +86,19 @@ The above graph represent the evaluation between the accuracy and the val_accura
 The basic drawback in our model that we can see is by again looking back at the graphical data. In that data we are able to see that the lines are crossing each other which can give a miscellaneous results sometime and can alter through the training model in making wrong predictions.
 Our main goal is to make the model more accurate but training in such a way that no wrong predictions are made.
 
-<!-- ![faultloss](https://user-images.githubusercontent.com/65272042/230706546-ce1014b4-1482-4ca5-9f66-9284e352ec55.jpg) -->
-<!-- ![faultacc](https://user-images.githubusercontent.com/65272042/230706670-bc986aaf-dcac-4c1a-9e1a-00794c139675.jpg) -->
+![faultloss](https://user-images.githubusercontent.com/65272042/230706546-ce1014b4-1482-4ca5-9f66-9284e352ec55.jpg)
+![faultacc](https://user-images.githubusercontent.com/65272042/230706670-bc986aaf-dcac-4c1a-9e1a-00794c139675.jpg)
 
 In the above graphs we can se those hazards where there are chances of high data losses and miss predictions.So these are the minor drawbacks that we have to resolve to make our model work smoothly.
 
-# **A cute little Applant appeared-**
+# **A cute little LeafArmor appeared-**
 
 Enough talking about the diseases and stats of our machine learning model. Now let me take you through the journey of our littel android applications interface. The interface is clean and simple with a root logo. For now our application have the main page on which our Model would be working. 
 
-<!-- ![image](https://user-images.githubusercontent.com/65272042/230707096-83c1bc92-286d-4613-82c8-32d538f9e801.png) -->
+![image](https://user-images.githubusercontent.com/65272042/230707096-83c1bc92-286d-4613-82c8-32d538f9e801.png)
 This page is very simple and just have two backend operations to take a picture through mobile phones camera or the gallery. When the input is taken then that image is forwarded to our pre trained model and the model indicates which leaf it is and whether the leaf is healthy or diseased and if it is diseased then what kind of disease it have.  
 
-# **Applant(0.1.0)**
+# **LeafArmor(0.1.0)**
 
 In the testing face we faced many problems regarding the accuracy and the predictions. So the approach of our machine learning model got divided into three parts-
 * Creation of model and training the model
@@ -113,11 +113,11 @@ We used 5 layers namely-
 * Flatten
 * Dense layer
 
-<!-- ![image](https://user-images.githubusercontent.com/65272042/230756435-ff94206b-706c-4a8d-8917-fcdf8e0703f8.png) -->
+![image](https://user-images.githubusercontent.com/65272042/230756435-ff94206b-706c-4a8d-8917-fcdf8e0703f8.png)
 
 The code for architecture in our program looked like this-
 
-![Screenshot}
+![Screenshot 2023-04-09 111237](https://user-images.githubusercontent.com/65272042/230756528-2fbdd8f6-a7fc-41b1-b836-4046d4008bb4.jpg)
 
 Then we trained the model and saved it.
 
@@ -133,9 +133,13 @@ Thus the accuracy was increased from the earlier version and now it was the time
 Then we Coverted this file into a tflite extension for the use in android.
 <!-- ![Screenshot 2023-04-09 114447](https://user-images.githubusercontent.com/65272042/230757705-b90b9909-14b5-4df7-bcff-8944e5e6531b.jpg) -->
 
-Introducing the New Applant-
+Introducing the New LeafArmor-
 
-/////((Image))
+<!-- ![image](https://user-images.githubusercontent.com/65272042/230757413-751393f5-7342-473f-aaab-1b0fa942d9b0.png) -->
+
+<!-- ![image](https://user-images.githubusercontent.com/65272042/230757452-4f893830-9806-4ae5-84d2-2e94c704a1c6.png) -->
+
+<!-- ![image](https://user-images.githubusercontent.com/65272042/230757488-ae029cbb-597e-4a81-9b55-53cb41ea933b.png) -->
 
 ## **Future Instances-**
 * In future we will try to make a page for the application where the solution related to the specified disease will be given 
@@ -147,4 +151,4 @@ Introducing the New Applant-
 So the ideas that we proposed has came to an end, but more things have to be done in future. So that our future generations can learn, care and be precautious about everything that is present in future.
 Atlast now we know what hazards silly problems can create if we neglected it.
 
-*If we decide to save our nature first, we can create our own Utopia.*
+*If we decide to save our nature first, we can create our own Utopia*
