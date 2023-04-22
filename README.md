@@ -147,4 +147,4 @@ Introducing the New Applant-
 So the ideas that we proposed has came to an end, but more things have to be done in future. So that our future generations can learn, care and be precautious about everything that is present in future.
 Atlast now we know what hazards silly problems can create if we neglected it.
 
-*If we decide to save our nature first, we can create our own Utopia*
+*If we decide to save our nature first, we can create our own Utopia.*
