@@ -141,14 +141,14 @@ Introducing the New Groot-
 
 ![image](https://user-images.githubusercontent.com/65272042/230757488-ae029cbb-597e-4a81-9b55-53cb41ea933b.png)
 
-## **Future Instances-**
+## *Future Instances-*
 * In future we will try to make a page for the application where the solution related to the specified disease will be given 
 * A monitoring system that can monitor the growth of a plant and can detect even a single anomaly. 
 * A section for agriculutural news and some articles related to the modern methods of agriculture.
 
-# **Conclusion-**
+# *Conclusion-*
 
 So the ideas that we proposed has came to an end, but more things have to be done in future. So that our future generations can learn, care and be precautious about everything that is present in future.
 Atlast now we know what hazards silly problems can create if we neglected it.
 
-*If we decide to save our nature first, we can create our own Utopia*
+If we decide to save our nature first, we can create our own Utopia.
