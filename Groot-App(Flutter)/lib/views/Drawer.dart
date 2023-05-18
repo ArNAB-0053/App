@@ -1,5 +1,4 @@
 import 'dart:ffi';
-
 import 'package:color_xd/const/const.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
@@ -10,7 +9,7 @@ class MyDrawer extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    final imageUrl =
+    const imageUrl =
         "https://i.pinimg.com/736x/8b/16/7a/8b167af653c2399dd93b952a48740620.jpg";
 
     return Drawer(
